@@ -1,6 +1,6 @@
 # RetailGuard AI
 
-> A multimodal AI surveillance system built with the [Vision Agents SDK](https://github.com/AIOZNetwork/vision-agents) that detects and prevents retail theft in real time using computer vision, behavioral analysis, and voice alerts.
+> A multimodal AI surveillance system built with the [Vision Agents SDK](https://github.com/GetStream/Vision-Agents) that detects and prevents retail theft in real time using computer vision, behavioral analysis, and voice alerts.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![YOLO](https://img.shields.io/badge/YOLO-v11-green)
@@ -11,7 +11,7 @@
 
 ## Overview
 
-RetailGuard AI is a 3-stage intelligent pipeline built on the **Vision Agents SDK** by Stream. It monitors retail environments through camera feeds via Stream's WebRTC Edge Network (<30ms latency), detects suspicious behavior in real time, and responds with voice alerts — all while logging incidents to a searchable dashboard.
+RetailGuard AI is a 3-stage intelligent pipeline built on the **Vision Agents SDK** by Stream. It monitors retail environments through camera feeds via Stream's WebRTC Edge Network , detects suspicious behavior in real time, and responds with voice alerts — all while logging incidents to a searchable dashboard.
 
 
 
@@ -20,7 +20,7 @@ RetailGuard AI is a 3-stage intelligent pipeline built on the **Vision Agents SD
 | Stage | Component | Role |
 |-------|-----------|------|
 | 1 | **YOLO11n** | Detects people, bags, bottles, backpacks. Tracks with unique IDs across frames |
-| 2 | **Gemini 2.0 Flash** | Analyzes annotated frames for theft behavior — concealment, unpaid exit, consumption |
+| 2 | **Gemini Flash** | Analyzes annotated frames for theft behavior — concealment, unpaid exit, consumption |
 | 3 | **ElevenLabs TTS** | Speaks real-time voice alerts. Logs incidents with screenshots to SQLite |
 
 ## Features
