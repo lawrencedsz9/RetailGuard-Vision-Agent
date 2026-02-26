@@ -1,0 +1,14 @@
+
+opencv-python>=4.9.0
+numpy>=1.26.0
+ultralytics>=8.3.0        
+google-genai>=1.0.0s
+# Stream Vision Agents SDK (agent.py)
+vision-agents>=0.1.0
+av>=12.0.0                
+Pillow>=10.0.0
+elevenlabs>=1.0.0
+deepgram-sdk>=3.0.0
+streamlit>=1.35.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
